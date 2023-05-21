@@ -37,5 +37,22 @@ Leider geht es nicht anders.
 
 **Du musst folgendes installiert haben:** `requests`
 
+# Fragen
+***Fallst du nicht weißt was ein VRS-monitor ist:***
+
+> Ein VRS-monitor ist ein eigens konfigurierter abfahrtplan. Du kannst ihn [hier](https://www.vrs.de/am/admin "VRS-monitor Adminseite") erstellen.
+Wenn du ihn dir zurechtkonfiguriert hast klicke auf `Zum Abfahrtsmonitor wechseln`.
+Das ist dein VRS-monitor!
+
+***Fallst du nicht weißt wie du an die ID deines Monitors kommst:***
+
+> Der link zu deinem monitor müsste jetzt ungefähr so aussehen: `https://www.vrs.de/am/s/5b7344b942408df59f7bf681ff96780e`.
+Die ID ist das was nach dem `https://www.vrs.de/am/s/` kommt, meine ID ist somit `5b7344b942408df59f7bf681ff96780e`.
+
+Also:
+
+| anderes URL zeugs        | ID          |
+| ------------- |:-------------:|
+| https://www.vrs.de/am/s/   | 5b7344b942408df59f7bf681ff96780e |
 
 [![VRSlink](https://assets.static-bahn.de/dam/jcr:19280166-a739-4d8d-b896-305135ec0ae9/117045-138812.png)](https://vrs.de)
