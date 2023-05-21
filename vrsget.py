@@ -49,17 +49,22 @@ def getDeparturesOfMonitor(monitorID):
     return(departure)
 
 def getLinesOfInput(event):
-    lines = [item['line'] for item in event]
+    if type(event) == list:
+        lines = [item['line'] for item in event]
+    else:
+        lines = event['line']
     return(lines)
 
 def getStopPointsOfInput(event):
-    StopPoints = [item['StopPoint'] for item in event]
-    return(StopPoints)
-
-def getStopPointsOfInput(event):
-    StopPoints = [item['line'] for item in event]
-    return(StopPoints)
+    if type(event) == list:
+        stopPoints = [item['stopPoint'] for item in event]
+    else:
+        stopPoints = event['stopPoint']
+    return(stopPoints)
 
 def getDeparturesOfInput(event):
-    Departures = [item['departure'] for item in event]
-    return(Departures)
+    if type(event) == list:
+        departures = [item['departure'] for item in event]
+    else:
+        departures = event['departure']
+    return(departures)
