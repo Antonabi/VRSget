@@ -57,5 +57,3 @@ Also:
 
 ***Denke daran, dass Monitore gelöscht werden wenn sie ein halbes Jahr nicht mehr abgerufen werden.***
 ***Denke auch daran, dass jeder der die ID deines Monitors hat ihn beliebig verändern kann.***
-
-[![VRSlink](https://assets.static-bahn.de/dam/jcr:19280166-a739-4d8d-b896-305135ec0ae9/117045-138812.png)](https://vrs.de)
