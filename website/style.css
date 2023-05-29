@@ -1,0 +1,163 @@
+.body {
+    background-color: rgb(0, 0, 0);
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    letter-spacing: -1.2px;
+    word-spacing: 2px;
+    color: #ffffff;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.titleDiv{
+    margin: auto;
+    position: relative;
+    width: 50%;
+    bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    animation: fadeInTitle 0.5s ease-in-out forwards;
+    animation-delay: 0.2s;
+}
+
+.description {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 20px;
+    letter-spacing: -1.2px;
+    word-spacing: 2px;
+    color: #ffffff;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.descriptionDiv {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    animation: fadeInDescription 0.5s ease-in-out forwards;
+    animation-delay: 0s;
+}
+.githubButtonText {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+.githubButton {
+    border-radius: 15px;
+    background-color: dimgray;
+    border: none;
+    color: white;
+    padding: 30px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-top: 150px;
+    transition-duration: 0.5s;
+}
+
+.ButtonDiv {
+    margin: auto;
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column; /* Änderung: Vertikale Anordnung */
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    animation: fadeInButton 0.5s ease-in-out forwards;
+    animation-delay: 0.6s;
+    margin-bottom: 10px;
+  }
+  
+
+.PyPIButtonText {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+.PyPIButton {
+    border-radius: 15px;
+    background-color: #0273B7;
+    border: none;
+    color: white;
+    padding: 30px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.5s;
+}
+
+.githubButton:hover {
+    box-shadow: 0px 10px 13px -7px #ffffff, 5px 5px 15px 5px rgba(255,255,255,0);
+}
+
+.PyPIButton:hover {
+    box-shadow: 0px 10px 13px -7px #ffffff, 5px 5px 15px 5px rgba(255,255,255,0);
+}
+
+@keyframes fadeInButton {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+@keyframes fadeInDescription {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInTitle {
+    from {
+      opacity: 0;
+      bottom: 100px;
+    }
+    to {
+      opacity: 1;
+      bottom: 0px;
+    }
+  }
+
+.TheThingStickingAtTheBottomLOL {
+    position: fixed;     
+    text-align: center;    
+    bottom: 0px; 
+    width: 100%;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 15px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #FFFFFF;
+    font-weight: normal;
+}
