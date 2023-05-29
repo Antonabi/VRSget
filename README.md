@@ -32,7 +32,7 @@ lines = vrsget.getDeparturesOfInput("Liste von events oder ein event") #gibt Inf
 
 # Installation
 **Da ich ascheinend zu dumm bin das bei PyPI einzutragen, musst du das herunterladen oder mit git klonen und dann im Ornder ein Skript damit erstellen.**
-Du kannst es per pip zu installlieren: `pip install VRSget` 
+Du kannst es per pip installlieren: `pip install VRSget` 
 (Ich bin mir nicht sicher ob das funktioniert, weil ich nicht weiß ob es jetzt geuploaded ist oder nicht)
 
 Mit git klonen: `git clone https://github.com/Antonabi/VRSget.git`
