@@ -31,12 +31,10 @@ lines = vrsget.getDeparturesOfInput("Liste von events oder ein event") #gibt Inf
 ```
 
 # Installation
-***update***
-Heute wurde die Blockade aufgehoben und ich werde versuchen VRSget auf PyPI online zu stellen.
+**Da ich ascheinend zu dumm bin das bei PyPI einzutragen, musst du das herunterladen oder mit git klonen und dann im Ornder ein Skript damit erstellen.**
 
-Leider kann ich das noch nicht beim PyPI (Python Package Index) einreichen, weil es ja momentan eine Registrierungs und Veröffentlichblockade gibt.
-Deswegen musst du das Skript herunterladen und im gleichen ordner ein neues Skript erstellen worin du dann erst die funktionen verwenden kannst.
-Leider geht es nicht anders.
+Mit git klonen: `git clone https://github.com/Antonabi/VRSget.git`
+Zum herunterladen der Dateien, musst du einfach auf `Code` klicken dann ist da schon direkt der Button `download ZIP` zu sehen. Darauf kennst du dann eifach klicken und, wenn es fertig heruntergeladen ist kannst du es einfach entpacken.
 
 **Du musst folgendes installiert haben:** `requests`
 
